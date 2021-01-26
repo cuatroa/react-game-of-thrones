@@ -1,0 +1,65 @@
+.c-characters-gallery {
+  
+  margin-top: 50px;
+  padding: 100px;
+  margin: 50px;
+  max-height: 78vh;
+  overflow: hidden;
+  overflow-y: scroll;
+
+  &__item-container {
+    display: inline-block;
+    text-decoration: none;
+    margin-top: -50px;
+
+  }
+
+  &__item {
+    margin-bottom: 120px;
+    cursor: pointer;
+  }
+
+  &__img {
+    height: 300px;
+    width: 200px;
+    object-fit: cover;
+    background-image: url("../../../../Assets/Img/Character.png");
+  }
+
+  &__caption {
+    opacity: 0;
+    padding-top: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    top: 50%;
+    width: 200px;
+    height: 70px;
+    position: absolute;
+    font-size: 14px;
+    font-family: got;
+    color: white;
+    font-weight: lighter;
+
+    &:hover  {
+      opacity: 1;
+    }
+  }
+}
+
+#scrollbar::-webkit-scrollbar-track
+{
+box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+background-color: #443d3d;
+}
+
+#scrollbar::-webkit-scrollbar
+{
+width: 6px;
+background-color: #F5F5F5;
+}
+
+#scrollbar::-webkit-scrollbar-thumb
+{
+  background-color: white;
+  border-radius: 20%;
+}

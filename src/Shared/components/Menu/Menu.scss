@@ -1,0 +1,36 @@
+.c-menu {
+  
+  position: fixed;
+  bottom: 0;
+  height: 135px;
+  display: flex;
+  align-items: center;
+  
+    &__link {
+      color: white;
+      font-family: got;
+      font-size: 24px;
+      text-decoration: none;
+      margin: 24px;
+      padding: 24px;
+      min-width: 24rem;
+      text-align: center
+    }
+
+    &__link:hover {
+      color: white;
+      text-decoration: none;
+
+    }
+}
+
+.is-active {
+  text-decoration: underline;
+  
+
+  &:hover {
+    color: white;
+    text-decoration: underline;
+  }
+}
+

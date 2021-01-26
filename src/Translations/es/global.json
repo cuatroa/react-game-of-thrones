@@ -1,0 +1,26 @@
+{
+    "Menu": {
+        "Characters" : "Personajes",
+        "Houses" : "Casas",
+        "Chronology" : "Cronologia"
+    },
+    "CharactersItem": {
+        "House" : "Casa",
+        "Alliances" : "Alianzas",
+        "Appearances" : "Apariciones",
+        "Father" : "Padre",
+        "Siblings" : "Hermanos",
+        "Titles" : "Titulos"
+    },
+    "HousesItem": {
+        "Words" : "Lema",
+        "Seat" : "Sede",
+        "Region" : "Region",
+        "Alliances" : "Alianzas",
+        "Religion" : "Religion",
+        "Sigil" : "Emblema"
+    },
+    "Search": {
+        "Search" : "Buscar..."
+    }
+}

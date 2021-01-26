@@ -1,0 +1,62 @@
+.b-chronology {
+        margin-top: 20px;
+        margin-bottom: -20px;
+        width: 59px;
+        height: 59px;
+        background-color: black;
+        color: white;
+        border-radius: 50%;
+        outline: none;
+        border: 3px solid white;
+
+        &:hover {
+            background-color: white;
+            color: black;
+            transition: 0.7s;
+        }
+}
+
+.c-chronology-item {
+    
+    height: 75vh;
+    margin: 50px;
+    overflow: hidden;
+    overflow-y: scroll;
+
+
+    &__1 {
+        padding-bottom: 170px;
+        border-top: 3px solid white;
+        border-right: 3px solid white;
+        width: 335px;
+
+    }
+
+    &__2{
+        margin-top: 170px;
+        border-top: 3px solid white;
+        width: 325px;
+
+    }
+
+    &__age {
+        font-family: got;
+        font-size: 24px;
+        color: white;
+    }
+
+    &__name {
+        font-family: got;
+        font-size: 18px;
+        color: white;
+    }
+
+    &__img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+        background-color: black;
+        object-position: -10% 0;
+    }
+}

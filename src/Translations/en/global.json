@@ -1,0 +1,26 @@
+{
+    "Menu": {
+        "Characters" : "Characters",
+        "Houses" : "Houses",
+        "Chronology" : "Chronology"
+    },
+    "CharactersItem": {
+        "House" : "House",
+        "Alliances" : "Alliances",
+        "Appearances" : "Appearances",
+        "Father" : "Father",
+        "Siblings" : "Siblings",
+        "Titles" : "Titles"
+    },
+    "HousesItem": {
+        "Words" : "Words",
+        "Seat" : "Seat",
+        "Region" : "Region",
+        "Alliances" : "Alliances",
+        "Religion" : "Religion",
+        "Sigil" : "Sigil"
+    },
+    "Search": {
+        "Search" : "Search..."
+    }
+}
